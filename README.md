@@ -18,9 +18,11 @@ pip install wagtail
 
 # Genera mi sitio
 
-wagtail start hw2wagtail dsdmtarea02
+wagtail start mysite dsdmtarea02
 
 # Instalar dependencias del proyecto
+
+cd dsdmtarea02
 
 pip install -r requirements.txt
 
@@ -31,6 +33,12 @@ python manage.py migrate
 # Crear un usuario administrador
 
 python manage.py createsuperuser
+
+Username: admin 
+
+Email: paulo.jara@unl.edu.ec 
+
+Password: admin
 
 # Iniciar el servidor
 
