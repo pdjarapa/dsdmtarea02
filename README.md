@@ -31,5 +31,7 @@ python manage.py createsuperuser
 # Iniciar el servidor
 
 python manage.py runserver
+
 http://localhost:8000/
+
 http://localhost:8000/admin
