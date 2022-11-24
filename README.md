@@ -2,10 +2,14 @@
 
 # Crear y activar un entorno virtual
 
-virtualenv hw2wagtail
-cd hw2wagtail
+virtualenv mysite
+
+cd mysite
+
 cd Scripts
+
 activate
+
 cd..
 
 # Instalar Wagtail
